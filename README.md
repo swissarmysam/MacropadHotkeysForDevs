@@ -1,2 +1,3 @@
 # MacropadHotkeysForDevs
-Adafruit Macropad RP2040 hotkey macros for devs and some general
+
+A collection of macropad keys useful to developers for the Adafruit RP2040 macropad.
