@@ -25,8 +25,8 @@ app = {                # REQUIRED dict, must be named 'app'
         # 4th row ----------
         (0x101010, '*', ['*']),
         (0x202000, '0', ['0']),
-        (0x101010, '#', ['#']),
+        (0x101010, '#', [Keycode.POUND]),
         # Encoder button ---
-        (0x000000, '', [Keycode.BACKSPACE])
+        (0x000000, '', [''])
     ]
 }
