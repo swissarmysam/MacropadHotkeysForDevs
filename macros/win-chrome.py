@@ -20,7 +20,7 @@ app = {
         # 3rd row ----------
         (0x000040, 'Cons.', [Keycode.CONTROL, Keycode.SHIFT, Keycode.K]), # Console
         (0x000040, 'Source', [Keycode.CONTROL, Keycode.P]), # Search source
-        (0x000040, 'Clr Cons.', [Keycode.CONTROL, Keycode.L]), # Clear console
+        (0x000040, 'CLS.', [Keycode.CONTROL, Keycode.L]), # Clear console
         # 4th row ----------
         (0x000040, 'Inps.', [Keycode.CONTROL, Keycode.SHIFT, Keycode.C]), # Inspector
         (0x000040, 'Last P', [Keycode.CONTROL, Keycode.SHIFT, Keycode.I]), # Last Panel

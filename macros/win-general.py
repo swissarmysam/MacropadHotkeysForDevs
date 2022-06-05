@@ -14,16 +14,16 @@ app = {                # REQUIRED dict, must be named 'app'
         (0x34d399, 'Paste', [Keycode.CONTROL, Keycode.V]),
         # 2nd row ----------
         (0x34d399, 'Sel All', [Keycode.CONTROL, Keycode.A]), # Select All
-        (0x22d3ee, 'Snip Tool', [Keycode.WINDOW, Keycode.SHIFT, Keycode.S]), # Snip & Sketch
-        (0x22d3ee, 'Col Picker', [Keycode.WINDOWS, Keycode.SHIFT, Keycode.C]), # Color Picker (PowerToys)
+        (0x22d3ee, 'Snip', [Keycode.WINDOW, Keycode.SHIFT, Keycode.S]), # Snip & Sketch
+        (0x22d3ee, 'Col Pkr', [Keycode.WINDOWS, Keycode.SHIFT, Keycode.C]), # Color Picker (PowerToys)
         # 3rd row ----------
         (0xfdba74, 'Rename', [Keycode.F2]),
-        (0xfdba74, 'Refresh', [Keycode.F5]),
-        (0xfb7185, 'Hid. Menu', [Keycode.WINDOWS, Keycode.X]), # Hidden Menu
+        (0xfdba74, 'Ref.', [Keycode.F5]), # Refresh
+        (0xfb7185, 'Hdn Mnu', [Keycode.WINDOWS, Keycode.X]), # Hidden Menu
         # 4th row ----------
         (0xfb7185, 'Task View', [Keycode.WINDOWS, Keycode.TAB]), 
-        (0xfb7185, 'Switch L', [Keycode.ALT, Keycode.SHIFT, Keycode.TAB]), # Switch app to Left
-        (0xfb7185, 'Switch R', [Keycode.ALT, Keycode.TAB]), # Switch app to Right
+        (0xfb7185, 'Sw <', [Keycode.ALT, Keycode.SHIFT, Keycode.TAB]), # Switch app to Left
+        (0xfb7185, 'Sw >', [Keycode.ALT, Keycode.TAB]), # Switch app to Right
         # Encoder button ---
         (0x000000, '', [''])
     ]

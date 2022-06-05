@@ -19,11 +19,11 @@ app = {                      # REQUIRED dict, must be named 'app'
         # 3rd row ----------
         (0x000040, 'Up 1', ['cd ..', Keycode.ENTER]),
         (0x000040, 'Up 2', ['cd ..\..', Keycode.ENTER]),
-        (0x000040, 'Clear', ['cls']),
+        (0x000040, 'CLS', ['cls']),
         # 4th row ----------
-        (0x101010, 'npm i', ['npm install']),   # npm install
-        (0x101010, 'npm st.', ['npm run start']),   # start
-        (0x101010, 'npm b.', ['npm run build']), # build
+        (0x101010, 'npm I', ['npm install']),   # npm install
+        (0x101010, 'npm St', ['npm run start']),   # start
+        (0x101010, 'npm Bu', ['npm run build']), # build
         # Encoder button ---
         (0x000000, '', [''])
     ]

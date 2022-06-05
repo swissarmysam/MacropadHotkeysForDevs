@@ -5,7 +5,7 @@
 from adafruit_hid.keycode import Keycode
 
 app = {               
-    'name' : 'Function Keys', 
+    'name' : 'Function Keys #1', 
     'macros' : [       
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
