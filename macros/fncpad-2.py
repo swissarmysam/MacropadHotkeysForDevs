@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2022 swissarmysam
 
-# MACROPAD Hotkeys: Function Keys Pad
+# MACROPAD Hotkeys: Extra Function Keys Pad
 
 from adafruit_hid.keycode import Keycode
 

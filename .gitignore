@@ -1,0 +1,6 @@
+# Ignore files
+
+.vscode
+
+code.py
+/lib/*
