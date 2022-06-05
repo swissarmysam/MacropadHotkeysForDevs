@@ -9,21 +9,21 @@ app = {
     'macros' : [       
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
-        (0x34d399, 'F12', [Keycode.F12]),
         (0x34d399, 'F13', [Keycode.F13]),
         (0x34d399, 'F14', [Keycode.F14]),
-        # 2nd row ----------
         (0x34d399, 'F15', [Keycode.F15]),
+        # 2nd row ----------
         (0x34d399, 'F16', [Keycode.F16]),
         (0x34d399, 'F17', [Keycode.F17]),
-        # 3rd row ----------
-        (0x000000, '', [''])
         (0x34d399, 'F18', [Keycode.F18]),
-        (0x000000, '', [''])
+        # 3rd row ----------
+        (0x000000, 'F19', [Keycode.F19]),
+        (0x000000, 'F20', [Keycode.F20]),
+        (0x000000, 'F21', [Keycode.F21]),
         # 4th row ----------
-        (0x000000, '', ['']),
-        (0x000000, '', ['']),
-        (0x000000, '', [''])
+        (0x34d399, 'F22', [Keycode.F22]),
+        (0x000000, 'F23', [Keycode.F23]),
+        (0x000000, 'F24', [Keycode.F24]),
         # Encoder button ---
         (0x000000, '', [''])
     ]

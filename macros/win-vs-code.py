@@ -10,7 +10,7 @@ app = {                      # REQUIRED dict, must be named 'app'
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
         (0x22d3ee, 'Cmd P', [Keycode.CONTROL, Keycode.SHIFT, Keycode.P]), # Command Palette
-        (0x22d3ee, 'ShCuts', [Keycode.CONTROL, Keycode.K, 0.5, Keycode.CONTROL, Keycode.S]), # Keyboard Shortcuts
+        (0x22d3ee, 'ShCuts', [Keycode.CONTROL, Keycode.K, 0.25, Keycode.CONTROL, Keycode.S]), # Keyboard Shortcuts
         (0x22d3ee, 'Reveal', [Keycode.SHIFT, Keycode.ALT, Keycode.R]), # Reveal in Finder
         # 2nd row ----------
         (0xfdba74, 'GT File', [Keycode.CONTROL, Keycode.P]), # Go to File

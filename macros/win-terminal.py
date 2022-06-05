@@ -14,11 +14,11 @@ app = {                      # REQUIRED dict, must be named 'app'
         (0x004000, 'Az SP', ['az ad sp create-for-rbac --n @{sp-name}@ --sdk-auth --role contributor --scopes /subscriptions/{subscription-id}/resourceGroups/{resource-group} ']),  # rbac sp create 
         # 2nd row ----------
         (0x202000, 'PS File', ['New-Item -Path . -Name @.file-name@ -ItemType @file@ -Value @file-content@  ']),
-        (0x202000, 'PS Dir', ['New-Item -ItemType @directory@ -Path @.\path\dir@ ']),
-        (0x202000, 'PS Open', ['Invoke-Item -Path @.\path\file.ext@ ']),                    
+        (0x202000, 'PS Dir', ['New-Item -ItemType @directory@ -Path @.', Keycode.CONTROL, Keycode.ALT, Keycode.POUND, 'path', Keycode.CONTROL, Keycode.ALT, Keycode.POUND, 'dir@']),
+        (0x202000, 'PS Open', ['Invoke-Item -Path @.',  Keycode.CONTROL, Keycode.ALT, Keycode.POUND, 'path',  Keycode.CONTROL, Keycode.ALT, Keycode.POUND, 'file.ext@']),                    
         # 3rd row ----------
-        (0x000040, 'Up 1', ['cd ..', Keycode.ENTER]),
-        (0x000040, 'Up 2', ['cd ..\..', Keycode.ENTER]),
+        (0x000040, 'Up 1', ['cd ..', 0.25, Keycode.ENTER]),
+        (0x000040, 'Up 2', ['cd ..', Keycode.CONTROL, Keycode.ALT, Keycode.POUND, '..', 0.25, Keycode.ENTER]),
         (0x000040, 'CLS', ['cls']),
         # 4th row ----------
         (0x101010, 'npm I', ['npm install']),   # npm install
