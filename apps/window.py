@@ -28,7 +28,7 @@ class WindowManagementApp(KeyApp):
     key_3 = MacroKey(
         "Max",
         COLOR_WINMAN,
-        Press(Keycode.CONTROL, Keycode.X),
+        Press(Keycode.WINDOWS, Keycode.UP_ARROW),
     )
 
     key_5 = MacroKey(
@@ -45,7 +45,7 @@ class WindowManagementApp(KeyApp):
     key_8 = MacroKey(
         "Color Picker",
         COLOR_WINMAN,
-        Press(Keycode.CONTROL, Keycode.WINDOWS, Keycode.C),
+        Press(Keycode.SHIFT, Keycode.WINDOWS, Keycode.C),
     )
     key_10 = MacroKey(
         "Hidden Menu",
