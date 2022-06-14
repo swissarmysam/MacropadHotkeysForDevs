@@ -86,7 +86,7 @@ class ChromeApp(KeyApp):
             PreviousAppCommand(),
         )
     )
-
+  
     encoder_decrease = MacroCommand(
         Press(Keycode.CONTROL, Keycode.PAGE_UP)
     )

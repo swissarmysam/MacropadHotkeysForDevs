@@ -98,3 +98,11 @@ class CodeApp(KeyApp):
             PreviousAppCommand(),
         )
     )
+
+    
+    encoder_decrease = MacroCommand(
+        Press(Keycode.CONTROL, Keycode.PAGE_UP)
+    )
+    encoder_increase = MacroCommand(
+        Press(Keycode.CONTROL, Keycode.PAGE_DOWN)
+    )
