@@ -76,12 +76,12 @@ class FirefoxApp(KeyApp):
 
     # Fourth row
     key_9 = MacroKey(
-        "Insp.",
+        "Insp.", # Inspector
         COLOR_FIREFOX,
         Press(Keycode.CONTROL, Keycode.SHIFT, Keycode.C),
     )
     key_10 = MacroKey(
-        "Last Panel",
+        "Prev P.", # Previous Panel
         COLOR_FIREFOX,
         Press(Keycode.CONTROL, Keycode.SHIFT, Keycode.I),
     )

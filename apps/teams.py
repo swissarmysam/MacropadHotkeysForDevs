@@ -61,7 +61,7 @@ class TeamsApp(KeyApp):
         Press(Keycode.CONTROL, Keycode.SHIFT, Keycode.S),
     )
     key_11 = MacroKey(
-        "Cmd Menu",
+        "End",
         COLOR_WARNING,
         Press(Keycode.CONTROL, Keycode.SHIFT, Keycode.H),
     )
