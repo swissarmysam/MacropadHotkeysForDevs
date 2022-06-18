@@ -24,7 +24,7 @@ A modified version of [AppPad by kbaskett248](https://github.com/kbaskett248/ada
 
 11. Numpad - included in 'apps' folder but not setup in 'Home' switcher
 
-** Please note that these are for UK layout ⌨️ **
+**Please note that these are for UK layout ⌨️**
 
 ## Usage
 1. Clone the repo from [here](https://github.com/kbaskett248/adafruit_MacroPad) and give it a 🌟
