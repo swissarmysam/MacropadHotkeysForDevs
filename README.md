@@ -30,3 +30,12 @@ A modified version of [AppPad by kbaskett248](https://github.com/kbaskett248/ada
 1. Clone the repo from [here](https://github.com/kbaskett248/adafruit_MacroPad) and give it a 🌟
 2. Clone or download this repo and overwrite the AppPad 'apps' folder with this one
 3. That's it - copy the files over to your MacroPad in the normal manner
+
+## Settiong up custom shortcuts
+### Visual Studio
+- Click 'Tools' > 'Options'
+- Under Environment, select 'Keyboard'
+- Type Clean in 'Show commands containing'
+- Find and select 'Build.CleanSolution'
+- Set shortcut as follows:
+  ![image](https://user-images.githubusercontent.com/33488943/174443056-653881eb-3280-4841-a737-dfbd4cee1b43.png)
