@@ -73,7 +73,11 @@ class VsApp(KeyApp):
     key_9 = MacroKey(
         "Clean",
         COLOR_CODE,
-        Press(Keycode.CONTROL, Keycode.ALT, Keycode.C, Keycode.S),
+        Sequence(
+            Press(Keycode.CONTROL, Keycode.K),
+            Wait(0.1),
+            Press(Keycode.CONTROL, Keycode.ALT, Keycode.C),
+        ),
     )
     key_10= MacroKey(
         "Build",
