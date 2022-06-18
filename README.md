@@ -38,4 +38,5 @@ A modified version of [AppPad by kbaskett248](https://github.com/kbaskett248/ada
 - Type Clean in 'Show commands containing'
 - Find and select 'Build.CleanSolution'
 - Set shortcut as follows:
+
   ![image](https://user-images.githubusercontent.com/33488943/174443056-653881eb-3280-4841-a737-dfbd4cee1b43.png)
