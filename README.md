@@ -31,7 +31,7 @@ A modified version of [AppPad by kbaskett248](https://github.com/kbaskett248/ada
 2. Clone or download this repo and overwrite the AppPad 'apps' folder with this one
 3. That's it - copy the files over to your MacroPad in the normal manner
 
-## Settiong up custom shortcuts
+## Setting up custom shortcuts
 ### Visual Studio
 - Click 'Tools' > 'Options'
 - Under Environment, select 'Keyboard'
