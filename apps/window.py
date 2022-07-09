@@ -47,10 +47,16 @@ class WindowManagementApp(KeyApp):
         COLOR_WINMAN,
         Press(Keycode.SHIFT, Keycode.WINDOWS, Keycode.C),
     )
-    key_10 = MacroKey(
-        "Hidden Menu",
+    key_9 = MacroKey(
+        "Hdn Menu",
         COLOR_WINMAN,
         Press(Keycode.WINDOWS, Keycode.X),
+    )
+
+    key_11 = MacroKey(
+        "App AOT",
+        COLOR_WINMAN,
+        Press(Keycode.WINDOWS, Keycode.CONTROL, Keycode.T),
     )
 
     encoder_button = PreviousAppCommand()
