@@ -19,6 +19,7 @@ from apps.git import GitApp
 from apps.term import TermApp
 from apps.teams import TeamsApp
 from apps.vs import VsApp
+from apps.sharex import ShareXApp
 
 from utils.app_pad import AppPad
 from utils.apps.key import Key, KeyApp
@@ -109,10 +110,15 @@ class HomeApp(KeyApp):
 
         teams_app = TeamsApp(app_pad, settings)
         cls.key_9 = Key(
-           text="MS Teams", color=COLOR_SLACK, command=SwitchAppCommand(teams_app)
+           text="Teams", color=COLOR_SLACK, command=SwitchAppCommand(teams_app)
+        )
+
+        sharex_app = ShareXApp(app_pad, settings)
+        cls.key_10 = Key(
+            text="ShareX", color=COLOR_WINMAN, command=SwitchAppCommand(sharex_app)
         )
 
         spotify_app = SpotifyApp(app_pad, settings)
         cls.key_11 = Key(
-            text="Spotify", color=COLOR_SPOTIFY, command=SwitchAppCommand(spotify_app)
+            text="Music", color=COLOR_SPOTIFY, command=SwitchAppCommand(spotify_app)
         )
